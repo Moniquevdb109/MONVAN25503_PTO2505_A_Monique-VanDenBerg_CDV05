@@ -41,7 +41,7 @@ function Contact() {
             <label className="form-label">Your Name</label>
             <input
               type="text"
-              placeholder="Jane Smith"
+              placeholder="Jane Doe"
               className="form-input"
               value={form.name}
               onChange={e => setForm(prev => ({ ...prev, name: e.target.value }))}
